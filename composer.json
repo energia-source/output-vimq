@@ -1,0 +1,26 @@
+{
+  "name": "output/vimq",
+  "type": "library",
+  "description": "Javascript output vimq",
+  "keywords": [
+    "ubyte",
+    "client-side",
+    "output",
+    "vimq"
+  ],
+  "homepage": "https://github.com/energia-source/output-vimq",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paolo Fabris",
+      "email": "support@ubyte.it",
+      "homepage": "https://www.ubyte.it/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "VIMQ\\": "lib/"
+    }
+  }
+}
